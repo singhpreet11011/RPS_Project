@@ -23,22 +23,28 @@
 
 </head>
 
-<body>
+<body class = rockpaperscissorsbodystyle>
+
+<button><a href = "index.html">Home</a></button>
+<button><a href = "jumpBlock.html">Jump-Block</a></button>
+<h1>Rock Paper Scissors</h1>
+
+<div class="choices">
+  <button onclick="playGame('rock')">Rock</button>
+  <button onclick="playGame('paper')">Paper</button>
+  <button onclick="playGame('scissors')">Scissors</button>
+</div>
+
+<div id="result"></div>
+<div id="score">Wins: 0 | Losses: 0 | Draws: 0</div>
 
 
 
 
 
-  <!-- Add your site or application content here -->
-  <h1>Games</h1>
-  <button id ="rps"><a href = "rockpaperscissors.html">Rock-Paper-Scissors</a></button>
-  <br>
-  <button id="ttt"><a href ="jumpBlock.html">Jump-Block</a></button>
 
-  <script src="js/app.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 
 </html>
-
-
